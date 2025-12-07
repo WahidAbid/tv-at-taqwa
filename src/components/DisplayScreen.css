@@ -1,0 +1,70 @@
+.display-screen {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background: #ffffff;
+    overflow: hidden;
+  }
+  
+  .logo {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    max-height: 80px;
+    object-fit: contain;
+    z-index: 10;
+  }
+  
+  .announcement-text {
+    text-align: center;
+    margin-top: 120px;
+    font-size: 32px;
+    font-weight: bold;
+  }
+  
+  .big-tile {
+    width: 100%;
+    text-align: center;
+    margin-top: 70px;
+  }
+  
+  .tile-title {
+    font-size: 52px;
+  }
+  
+  .tile-content {
+    font-size: 28px;
+    max-width: 900px;
+    margin: 0 auto 20px auto;
+    line-height: 1.4;
+  }
+  
+  .media-content {
+    max-width: 100%;
+    max-height: 400px;
+    margin: auto;
+    display: block;
+  }
+  
+  .footer-timer {
+    position: absolute;
+    bottom: 20px;
+    right: 30px;
+    font-size: 34px;
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 8px;
+  }
+  
+  /* FADE ANIMATION */
+  .fade-in {
+    opacity: 1;
+    transition: opacity 1s ease-in-out;
+  }
+  
+  .fade-out {
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+  }
+  
